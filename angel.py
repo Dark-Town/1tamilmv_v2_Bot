@@ -22,7 +22,7 @@ real_dict = {}
 def random_answer(message):
     text_message = (
         "Hello👋 \n\n"
-        "🗳 Get latest Movies from 1Tamilmv\n\n"
+        "🗳 Get latest Movies from Nkiri\n\n"
         "⚙️ *How to use me??*🤔\n\n"
         "✯ Please Enter */view* command and you'll get magnet link as well as link to torrent file 😌\n\n"
         "🔗 Share and Support💝"
@@ -77,7 +77,7 @@ def makeKeyboard(movie_list):
     return markup
 
 def tamilmv():
-    mainUrl = 'https://henz-api.zone.id/api/moviedl?moviename=${encodeURIComponent(movieName)}'
+    mainUrl = 'https://nkiri.com'
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36',
     }
