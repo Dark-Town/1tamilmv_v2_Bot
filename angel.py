@@ -53,7 +53,7 @@ def start(message):
 
     bot.send_photo(
         chat_id=message.chat.id,
-        photo='https://graph.org/file/4e8a1172e8ba4b7a0bdfa.jpg',
+        photo='https://www.imghippo.com/i/ghe6114Qos.jpg',
         caption=combined_caption,
         parse_mode='Markdown',
         reply_markup=keyboard
