@@ -35,7 +35,7 @@ def random_answer(message):
     
     bot.send_photo(
         chat_id=message.chat.id,
-        photo='https://graph.org/file/4e8a1172e8ba4b7a0bdfa.jpg',
+        photo='https://media-hosting.imagekit.io/d610131c9efb43c6/MagPic_20250218_062306447.jpg?Expires=1840125968&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=joI5p8EyYJBfAhYE~1Edsi~VzakvAm7wpNpOtk-rLQPvxnVuANtdHO34xahsdfjslXtVKK0tnx1KJF0As0I-c4Cqn5WiKyicqbavkT~cblcq2pMdNDBNlnmskhxAzJAP~buBDR9BLVKZj0zGBIpAr1NcBfUcQeycgOf~nU1X8BUOvv-z-eIPw7ULrRWhIAsE90Lfrpc1YG80KUTXha3uaiAIpFyPM1Y02XxcIsi~maAlFgZhVv8zEpdNjy58AVmBhPHnpiH3TpOydFDT5etzjP0d0WoVPhgyF2Lo~8Is6KVY9DT1V51cmNv0rcScHactlgYU2E8xCFWvOIeEoSQz9w__',
         caption=text_message,
         parse_mode='Markdown',
         reply_markup=keyboard
