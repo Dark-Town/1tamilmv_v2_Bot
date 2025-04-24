@@ -29,8 +29,8 @@ def random_answer(message):
     )
     
     keyboard = types.InlineKeyboardMarkup().add(
-        types.InlineKeyboardButton('🔗 GitHub 🔗', url='https://github.com/SudoR2spr'),
-        types.InlineKeyboardButton(text="⚡ Powered By", url='https://t.me/Opleech_WD')
+        types.InlineKeyboardButton('🔗 OUR SITE 🔗', url='https://paidtech.zone.id'),
+        types.InlineKeyboardButton(text="⚡ Powered By", url='https://t.me/paidtechzone')
     )
     
     bot.send_photo(
@@ -77,7 +77,7 @@ def makeKeyboard(movie_list):
     return markup
 
 def tamilmv():
-    mainUrl = 'https://www.1tamilmv.moi'
+    mainUrl = 'https://henz-api.zone.id/api/moviedl?moviename=${encodeURIComponent(movieName)}'
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36',
     }
